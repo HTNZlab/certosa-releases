@@ -19,16 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-## Ambito della licenza
-
-La licenza MIT regola il codice Certosa della linea gratuita e la documentazione
-corrente. I componenti di terzi conservano le rispettive licenze e i relativi
-avvisi inclusi nei pacchetti.
-
-Gli artefatti delle release storiche `v0.1f-beta.1` e `v0.2beta.5` non sono
-retroattivamente rilicenziati da questo aggiornamento del ramo principale. Per
-quei file resta applicabile la licenza inclusa in ciascun pacchetto al momento
-della pubblicazione.
