@@ -11,8 +11,10 @@ scadenza di prova.
 
 ## Versione corrente
 
-- **Web / PWA 0.3delta**: si apre dal collegamento sopra e, dopo il primo
-  caricamento completo, può continuare a funzionare offline.
+- **Web / PWA 0.3delta.1**: si apre dal collegamento sopra e, dopo il primo
+  caricamento completo, può continuare a funzionare offline. L'aggiornamento
+  del 22 ottobre 2026 corregge il layout e le interazioni sui display mobili,
+  compresi i quaderni che potevano restare bloccati a tutto schermo.
 - **Windows 0.2beta.6**: installer e versione portabile gratuiti sono nella
   [pagina del prodotto](https://htnzlab.it/prodotto/certosa).
 - [Pacchetto web 0.2beta.6](https://certosa.htnzlab.it/downloads/0.2beta.6/Certosa-0.2beta.6-web.zip)
