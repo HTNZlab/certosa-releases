@@ -11,16 +11,14 @@ scadenza di prova.
 
 ## Versione corrente
 
-- **Web / PWA 0.3delta.1**: si apre dal collegamento sopra e, dopo il primo
-  caricamento completo, può continuare a funzionare offline. L'aggiornamento
-  del 22 ottobre 2026 corregge il layout e le interazioni sui display mobili,
-  compresi i quaderni che potevano restare bloccati a tutto schermo.
-- **Windows 0.2beta.6**: installer e versione portabile gratuiti sono nella
-  [pagina del prodotto](https://htnzlab.it/prodotto/certosa).
-- [Pacchetto web 0.2beta.6](https://certosa.htnzlab.it/downloads/0.2beta.6/Certosa-0.2beta.6-web.zip)
-  e [sorgenti 0.2beta.6](https://certosa.htnzlab.it/downloads/0.2beta.6/Certosa-0.2beta.6-source.zip).
-- [SHA256SUMS.txt](https://certosa.htnzlab.it/downloads/0.2beta.6/SHA256SUMS.txt)
-  contiene le impronte dei pacchetti pubblici.
+**0.3delta.2** aggiunge il Manuale bilingue integrato e migliora layout,
+scorrimento e collegamenti sui display mobili.
+
+- [Windows — installer](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3delta.2/Certosa-0.3delta.2-windows-setup.exe)
+- [Windows — portabile](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3delta.2/Certosa-0.3delta.2-windows-portabile.zip)
+- [Web/offline](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3delta.2/Certosa-0.3delta.2-web.zip)
+- [Sorgenti MIT](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3delta.2/Certosa-0.3delta.2-sorgenti.zip)
+- [SHA256SUMS.txt](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3delta.2/SHA256SUMS.txt)
 
 Gli eseguibili Windows sono beta non firmate digitalmente: Windows può mostrare
 un avviso. Verifica sempre provenienza e SHA-256 prima di eseguirli. Non sono
@@ -45,7 +43,7 @@ corrente** e non vengono retroattivamente rilicenziati: per ciascun vecchio
 pacchetto resta applicabile la licenza inclusa al suo interno al momento della
 pubblicazione.
 
-Per usare Certosa oggi, scegli la Web/PWA oppure i download 0.2beta.6 indicati
+Per usare Certosa oggi, scegli la Web/PWA oppure i download 0.3delta.2 indicati
 sopra.
 
 ## Conservare i quaderni
@@ -57,5 +55,4 @@ conserva la copia e la sua password fuori dalla cartella del programma.
 La password non è recuperabile da HTNZLab. La PWA conserva i dati nello spazio
 del browser; l'installazione della PWA non sostituisce una copia esterna.
 
-Questa repository conserva la documentazione pubblica e le vecchie release.
-I download correnti sono serviti dai collegamenti ufficiali indicati sopra.
+Questa repository conserva la documentazione pubblica e le release ufficiali.
