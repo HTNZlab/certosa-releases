@@ -11,18 +11,21 @@ scadenza di prova.
 
 ## Versione corrente
 
-**0.3delta.2** aggiunge il Manuale bilingue integrato e migliora layout,
-scorrimento e collegamenti sui display mobili.
+**0.3.4** aggiunge Salva ora ed export JSON con allegati facoltativi;
+corregge ambienti, risorse offline e lettura vocale.
 
-- [Windows — installer](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3delta.2/Certosa-0.3delta.2-windows-setup.exe)
-- [Windows — portabile](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3delta.2/Certosa-0.3delta.2-windows-portabile.zip)
-- [Web/offline](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3delta.2/Certosa-0.3delta.2-web.zip)
-- [Sorgenti MIT](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3delta.2/Certosa-0.3delta.2-sorgenti.zip)
-- [SHA256SUMS.txt](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3delta.2/SHA256SUMS.txt)
+- [Windows — installer](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3.4/Certosa-0.3.4-windows-setup.exe)
+- [Windows — portabile](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3.4/Certosa-0.3.4-windows-portabile.zip)
+- [Linux — AppImage](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3.4/Certosa-0.3.4-linux.AppImage)
+- [Linux — deb](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3.4/Certosa-0.3.4-linux-amd64.deb)
+- [Web/offline](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3.4/Certosa-0.3.4-web.zip)
+- [Sorgenti MIT](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3.4/Certosa-0.3.4-sorgenti.zip)
+- [SHA256SUMS.txt](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3.4/SHA256SUMS.txt)
 
-Gli eseguibili Windows sono beta non firmate digitalmente: Windows può mostrare
-un avviso. Verifica sempre provenienza e SHA-256 prima di eseguirli. Non sono
-attualmente dichiarati pacchetti nativi pubblici e collaudati per macOS o Linux.
+Gli eseguibili sono beta non firmate digitalmente. Verifica provenienza e
+SHA-256 prima di eseguirli. Linux x86_64 è stato verificato in WSLg;
+installazione di sistema del deb e macchina Linux fisica restano da provare.
+Questa release non include macOS.
 
 ## Licenza
 
@@ -43,7 +46,7 @@ corrente** e non vengono retroattivamente rilicenziati: per ciascun vecchio
 pacchetto resta applicabile la licenza inclusa al suo interno al momento della
 pubblicazione.
 
-Per usare Certosa oggi, scegli la Web/PWA oppure i download 0.3delta.2 indicati
+Per usare Certosa oggi, scegli la Web/PWA oppure i download 0.3.4 indicati
 sopra.
 
 ## Conservare i quaderni
