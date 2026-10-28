@@ -7,7 +7,7 @@ codice Certosa è distribuito con **licenza MIT**: non richiede registrazione,
 indirizzo email, codice di attivazione o licenza a pagamento e non ha una
 scadenza di prova.
 
-[Apri Certosa sul web](https://certosa.htnzlab.it/) ·
+[Apri Certosa sul web](https://certosa.htnzlab.it/api/avvio) ·
 [Pagina del prodotto e download](https://htnzlab.it/prodotto/certosa)
 
 ## Versione corrente
