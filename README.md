@@ -9,7 +9,7 @@ notebooks and passwords stay on your device.
 Certosa is **free** and its code is **MIT licensed**. No account, email,
 activation code, paid licence or trial expiry is required.
 
-[Open Certosa](https://certosa.htnzlab.it/api/avvio) ·
+[Open Certosa](https://certosa.htnzlab.it/) ·
 [Product page and downloads](https://htnzlab.it/prodotto/certosa)
 
 ## Current release
