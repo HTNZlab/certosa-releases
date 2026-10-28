@@ -1,61 +1,64 @@
-# Certosa — gratuita e open source
+# Certosa — free and open source
 
-Certosa è un quaderno quasi analogico per scrivere e conservare quaderni
-personali sul proprio dispositivo. La versione attuale è **gratuita** e il
-codice Certosa è distribuito con **licenza MIT**: non richiede registrazione,
-indirizzo email, codice di attivazione o licenza a pagamento e non ha una
-scadenza di prova.
+**English** · [Italiano](README.it.md)
 
-[Apri Certosa sul web](https://certosa.htnzlab.it/) ·
-[Pagina del prodotto e download](https://htnzlab.it/prodotto/certosa)
+Certosa is a personal digital library for writing, reading and collecting ideas
+in notebooks. Illustrated rooms give it the feel of a physical library, while
+notebooks and passwords stay on your device.
 
-## Versione corrente
+Certosa is **free** and its code is **MIT licensed**. No account, email,
+activation code, paid licence or trial expiry is required.
 
-**0.3.4** aggiunge Salva ora ed export JSON con allegati facoltativi;
-corregge ambienti, risorse offline e lettura vocale.
+[Open Certosa](https://certosa.htnzlab.it/) ·
+[Product page and downloads](https://htnzlab.it/prodotto/certosa)
+
+## Current release
+
+**0.3.4** adds Save now and JSON export with optional attachments, and improves
+rooms, offline resources and read-aloud playback.
 
 - [Windows — installer](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3.4/Certosa-0.3.4-windows-setup.exe)
-- [Windows — portabile](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3.4/Certosa-0.3.4-windows-portabile.zip)
+- [Windows — portable](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3.4/Certosa-0.3.4-windows-portabile.zip)
 - [Linux — AppImage](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3.4/Certosa-0.3.4-linux.AppImage)
 - [Linux — deb](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3.4/Certosa-0.3.4-linux-amd64.deb)
 - [Web/offline](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3.4/Certosa-0.3.4-web.zip)
-- [Sorgenti MIT](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3.4/Certosa-0.3.4-sorgenti.zip)
+- [MIT source code](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3.4/Certosa-0.3.4-sorgenti.zip)
 - [SHA256SUMS.txt](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3.4/SHA256SUMS.txt)
 
-Gli eseguibili sono beta non firmate digitalmente. Verifica provenienza e
-SHA-256 prima di eseguirli. Linux x86_64 è stato verificato in WSLg;
-installazione di sistema del deb e macchina Linux fisica restano da provare.
-Questa release non include macOS.
+The executables are unsigned beta builds. Check their source and SHA-256
+checksum before running them. Linux x86_64 packages were tested in WSLg;
+system installation of the deb and a physical Linux machine remain untested.
+This release does not include macOS.
 
-## Licenza
+## Your notebooks
 
-Il codice Certosa della linea gratuita è disponibile secondo la
-[licenza MIT](LICENSE.md). Può essere usato, studiato, modificato e distribuito,
-anche per uso commerciale, conservando l'avviso di copyright e il testo della
-licenza.
+Close and Put away save automatically. **Save now**, or Ctrl/Cmd+S, saves while
+you write and confirms completion. JSON export can include a selection, a
+notebook or the whole library; attachments are excluded by default. JSON is
+not encrypted.
 
-Font, librerie, modelli vocali, registrazioni e altri componenti di terzi
-conservano le rispettive licenze. I relativi avvisi sono inclusi nei pacchetti
-che li distribuiscono; la licenza MIT di Certosa non li sostituisce.
+Before updating, removing the app or clearing browser data, use **Export
+library (.certosa)** and keep the encrypted backup and its password outside
+the app folder. HTNZLab cannot recover your password. The PWA stores data in
+browser storage; installing it does not replace an external backup.
 
-### Release storiche in questa repository
+## Licence
 
-Le release GitHub `v0.1f-beta.1` e `v0.2beta.5` sono conservate come archivio
-storico della precedente beta. Quei file **non sono la distribuzione gratuita
-corrente** e non vengono retroattivamente rilicenziati: per ciascun vecchio
-pacchetto resta applicabile la licenza inclusa al suo interno al momento della
-pubblicazione.
+Certosa's current free line is available under the [MIT licence](LICENSE.md).
+You may use, study, modify and redistribute the code, including commercially,
+while retaining its copyright and licence notices.
 
-Per usare Certosa oggi, scegli la Web/PWA oppure i download 0.3.4 indicati
-sopra.
+Fonts, libraries, voice models, recordings and other third-party components
+retain their own licences. Their notices are included in the packages that
+distribute them; Certosa's MIT licence does not replace those terms.
 
-## Conservare i quaderni
+### Historical releases
 
-Quaderni e password restano sul dispositivo. Prima di aggiornare, rimuovere
-l'app o cancellare i dati del browser, usa **Esporta libreria (.certosa)** e
-conserva la copia e la sua password fuori dalla cartella del programma.
+GitHub releases `v0.1f-beta.1` and `v0.2beta.5` remain available as an archive
+of the earlier beta. They are **not the current free distribution** and are
+not retroactively relicensed: each old package remains subject to the licence
+included when it was published.
 
-La password non è recuperabile da HTNZLab. La PWA conserva i dati nello spazio
-del browser; l'installazione della PWA non sostituisce una copia esterna.
+For current use, choose the Web/PWA or the 0.3.4 downloads above.
 
-Questa repository conserva la documentazione pubblica e le release ufficiali.
+This repository hosts public documentation and official releases.
