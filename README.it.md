@@ -10,23 +10,27 @@ scadenza di prova.
 [Apri Certosa sul web](https://certosa.htnzlab.it/) ·
 [Pagina del prodotto e download](https://htnzlab.it/prodotto/certosa)
 
-## Versione corrente
+## Certosa 0.3.8 — Web/PWA
 
-**0.3.4** aggiunge Salva ora ed export JSON con allegati facoltativi;
-corregge ambienti, risorse offline e lettura vocale.
+La versione pubblica corrente migliora griglia e stili dei paragrafi, conserva la
+formattazione con Invio e corregge ricerca nelle note e ripristino PDF/audio.
+Collaudata nel browser, compreso aggiornamento dalla 0.3.7 con quota di 250 MiB.
 
-- [Windows — installer](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3.4/Certosa-0.3.4-windows-setup.exe)
-- [Windows — portabile](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3.4/Certosa-0.3.4-windows-portabile.zip)
-- [Linux — AppImage](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3.4/Certosa-0.3.4-linux.AppImage)
-- [Linux — deb](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3.4/Certosa-0.3.4-linux-amd64.deb)
-- [Web/offline](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3.4/Certosa-0.3.4-web.zip)
-- [Sorgenti MIT](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3.4/Certosa-0.3.4-sorgenti.zip)
-- [SHA256SUMS.txt](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3.4/SHA256SUMS.txt)
+- [Apri Certosa](https://certosa.htnzlab.it/)
+- [Pacchetto Web/PWA](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3.8/Certosa-0.3.8-web.zip)
+- [HTML offline con codice client incorporato](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3.8/Certosa-0.3.8-offline.html)
+- [SHA256SUMS](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3.8/SHA256SUMS.txt)
+- [MCP 0.0.6-alpha.3](https://github.com/HTNZlab/certosa-mcp/releases/tag/v0.0.6-alpha.3)
 
-Gli eseguibili sono beta non firmate digitalmente. Verifica provenienza e
-SHA-256 prima di eseguirli. Linux x86_64 è stato verificato in WSLg;
-installazione di sistema del deb e macchina Linux fisica restano da provare.
-Questa release non include macOS.
+L'HTML contiene HTML, CSS e JavaScript del client MIT. Il pacchetto PWA contiene
+le risorse locali e gli avvisi di licenza. I modelli vocali opzionali restano separati.
+La ricerca copre testo, note e titoli; contenuti PDF, OCR e nomi allegati non sono indicizzati.
+I precedenti eseguibili Windows/Linux restano alla loro versione dichiarata;
+questa release aggiorna la distribuzione Web/PWA.
+
+### Pacchetti desktop precedenti — 0.3.4
+
+[Download storici 0.3.4](https://github.com/HTNZlab/certosa-releases/releases/tag/v0.3.4).
 
 ## Licenza
 
