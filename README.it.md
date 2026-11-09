@@ -10,24 +10,31 @@ scadenza di prova.
 [Apri Certosa sul web](https://certosa.htnzlab.it/) ·
 [Pagina del prodotto e download](https://htnzlab.it/prodotto/certosa)
 
-## Certosa 0.3.8 — Windows e Web/PWA
+## Certosa 0.3.10 — Windows e Web/PWA
 
-Griglia e stili dei paragrafi migliorati, formattazione conservata con Invio,
-ricerca completa nelle note e ripristino di PDF/audio. Compatibile con MCP alpha.3.
+La scrittura predefinita segue le righe del quaderno. I nuovi quaderni usano
+Testo continuo; quelli esistenti conservano la modalità salvata. Cambiare modalità
+conserva testo, formattazione, note, media e distribuzione delle pagine già scritte.
+Compatibile con MCP alpha.3.
 
-- [Windows x64 — installer](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3.8/Certosa-0.3.8-windows-setup.exe)
-- [Windows x64 — portatile](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3.8/Certosa-0.3.8-windows-portabile.zip)
-- [Sorgenti Windows con wrapper Rust/Tauri e frontend](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3.8/Certosa-0.3.8-windows-sorgenti.zip)
+Importando testo, il quaderno cresce oltre le pagine iniziali fino al limite
+compatibile di 10.000 pagine, poi viene creato il volume successivo della stessa
+serie. Pagine autonome conserva l’impaginazione dei libri con figure; le
+impostazioni spiegano la differenza.
+
+- [Windows x64 — installer](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3.10/Certosa-0.3.10-windows-setup.exe)
+- [Windows x64 — portatile](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3.10/Certosa-0.3.10-windows-portabile.zip)
+- [Sorgenti Windows con wrapper Rust/Tauri e frontend](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3.10/Certosa-0.3.10-windows-sorgenti.zip)
 - [Apri la Web/PWA](https://certosa.htnzlab.it/)
-- [Pacchetto Web/PWA](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3.8/Certosa-0.3.8-web.zip)
-- [HTML offline con codice client](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3.8/Certosa-0.3.8-offline.html)
-- [SHA256SUMS](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3.8/SHA256SUMS.txt) · [Manifest Windows](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3.8/MANIFEST-WINDOWS.json)
+- [Pacchetto Web/PWA](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3.10/Certosa-0.3.10-web.zip)
+- [HTML offline con codice client](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3.10/Certosa-0.3.10-offline.html)
+- [SHA256SUMS](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3.10/SHA256SUMS.txt) · [Manifest Windows](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3.10/MANIFEST-WINDOWS.json)
 - [MCP 0.0.6-alpha.3](https://github.com/HTNZlab/certosa-mcp/releases/tag/v0.0.6-alpha.3)
 
 Windows richiede WebView2. Build native-lite, con lettura tramite voce del
 dispositivo; modelli TTS opzionali non inclusi. Eseguibili non firmati.
 Collaudati su Windows 11 x64: installer, portatile, archivio cifrato, riavvio,
-import/export PNG/PDF/WAV, conservazione del quaderno 0.3.4 e dei dati dopo disinstallazione.
+import/export PNG/PDF/WAV, conservazione del quaderno 0.3.8 e dei dati dopo disinstallazione.
 
 Nel portatile, conservare **Certosa-dati** accanto all'EXE. Esportare una copia
 `.certosa` con la propria password prima dell'aggiornamento. Non cancellare i dati
@@ -58,8 +65,8 @@ corrente** e non vengono retroattivamente rilicenziati: per ciascun vecchio
 pacchetto resta applicabile la licenza inclusa al suo interno al momento della
 pubblicazione.
 
-Per usare Certosa oggi, scegli la Web/PWA oppure i download 0.3.4 indicati
-sopra.
+Per usare Certosa oggi, scegli la Web/PWA oppure i download Windows 0.3.10
+indicati sopra. I pacchetti Linux storici restano alla 0.3.4.
 
 ## Conservare i quaderni
 

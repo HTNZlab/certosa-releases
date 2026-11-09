@@ -1,10 +1,10 @@
-# Build Windows 0.3.8
+# Build Windows 0.3.10
 
 The release source ZIP includes the Rust/Tauri wrapper, lockfiles, NSIS template,
 license resources and the exact HTML/CSS/JavaScript frontend/media used for the native build.
 Use an x64 Visual Studio Developer PowerShell with C++ Build Tools, Rust and Node.
 
-1. Extract `Certosa-0.3.8-windows-sorgenti.zip` into a working directory.
+1. Extract `Certosa-0.3.10-windows-sorgenti.zip` into a working directory.
 2. Run `npm ci` in `packaging/tauri`.
 3. Run `cargo fetch --locked` in `packaging/tauri/src-tauri` to populate the Cargo cache.
 4. From the extracted root, run `powershell -File packaging/build-windows.ps1`.
