@@ -12,25 +12,32 @@ activation code, paid licence or trial expiry is required.
 [Open Certosa](https://certosa.htnzlab.it/) ·
 [Product page and downloads](https://htnzlab.it/prodotto/certosa)
 
-## Certosa 0.3.8 — Web/PWA
+## Certosa 0.3.8 — Windows and Web/PWA
 
-La versione pubblica corrente migliora griglia e stili dei paragrafi, conserva la
-formattazione con Invio e corregge ricerca nelle note e ripristino PDF/audio.
-Collaudata nel browser, compreso aggiornamento dalla 0.3.7 con quota di 250 MiB.
+Improved grid and paragraph styles, formatting retained across Enter,
+complete mixed-format note search, and PDF/audio restore fixes. Compatible with MCP alpha.3.
 
-- [Apri Certosa](https://certosa.htnzlab.it/)
-- [Pacchetto Web/PWA](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3.8/Certosa-0.3.8-web.zip)
-- [HTML offline con codice client incorporato](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3.8/Certosa-0.3.8-offline.html)
-- [SHA256SUMS](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3.8/SHA256SUMS.txt)
+- [Windows x64 — installer](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3.8/Certosa-0.3.8-windows-setup.exe)
+- [Windows x64 — portable](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3.8/Certosa-0.3.8-windows-portabile.zip)
+- [Windows source: Rust/Tauri wrapper and embedded client frontend](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3.8/Certosa-0.3.8-windows-sorgenti.zip)
+- [Open the Web/PWA](https://certosa.htnzlab.it/)
+- [Web/PWA package](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3.8/Certosa-0.3.8-web.zip)
+- [Offline HTML with client code](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3.8/Certosa-0.3.8-offline.html)
+- [SHA256SUMS](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3.8/SHA256SUMS.txt) · [Windows manifest](https://github.com/HTNZlab/certosa-releases/releases/download/v0.3.8/MANIFEST-WINDOWS.json)
 - [MCP 0.0.6-alpha.3](https://github.com/HTNZlab/certosa-mcp/releases/tag/v0.0.6-alpha.3)
 
-L'HTML contiene HTML, CSS e JavaScript del client MIT. Il pacchetto PWA contiene
-le risorse locali e gli avvisi di licenza. I modelli vocali opzionali restano separati.
-La ricerca copre testo, note e titoli; contenuti PDF, OCR e nomi allegati non sono indicizzati.
-I precedenti eseguibili Windows/Linux restano alla loro versione dichiarata;
-questa release aggiorna la distribuzione Web/PWA.
+Windows requires WebView2. Native-lite uses the device's speech voice; optional
+TTS models are excluded. Binaries are unsigned. Tested on Windows 11 x64:
+installer, portable app, encrypted archives, full restart, PNG/PDF/WAV roundtrip,
+upgrade from 0.3.4, and library preservation during uninstall.
 
-### Pacchetti desktop precedenti — 0.3.4
+Keep **Certosa-dati** beside the portable EXE. Before updating, export a
+password-protected `.certosa` backup. Preserve the data folder when replacing
+the program. [Build from source](WINDOWS-BUILD.md).
+PDF content, OCR and attachment filenames are not indexed.
+Previous Linux packages remain in [release 0.3.4](https://github.com/HTNZlab/certosa-releases/releases/tag/v0.3.4).
+
+## Pacchetti desktop precedenti — 0.3.4
 
 [Download storici 0.3.4](https://github.com/HTNZlab/certosa-releases/releases/tag/v0.3.4).
 
